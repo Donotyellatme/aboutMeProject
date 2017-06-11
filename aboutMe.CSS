@@ -73,7 +73,10 @@ figcaption {
 .iLikeToDraw  img {
     width: 250px;
     height: 250px;
-   
+}
+#igLogo {
+    height: 25px;
+    width: 25px;
 }
 #inkingImage {
     padding-top: 40px;
@@ -103,7 +106,7 @@ figcaption {
 }
 #willamette > img {
     height: 100px;
-    width: 150px;
+    width: 100px;
 }
 .wrapper{width:100%;}
 .box{float:left; height:300px;}
