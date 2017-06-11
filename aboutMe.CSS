@@ -1,0 +1,112 @@
+body {
+    background-color: pink;
+}
+
+a{
+  color: paleturquoise;  
+}
+
+h2{
+    padding: 0px;
+    margin: 0px;
+    background-color: #B39DDB;
+    text-align: center;
+    font-family: 'Bubbler One', sans-serif;
+    color: white;
+}
+ 
+h1 {
+    color: white;
+    background-color:#80CBC4;
+    font-family: 'Bubbler One', sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 0px, 20px, 20px, 20px;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+    text-align: center;
+}
+figcaption {
+    color: white;
+    font-family: 'Bubbler One', sans-serif;
+}
+#photoAndBio {
+    display: flex; 
+    color: #E0F2F1;
+    background-color: #9FA8DA;
+    font-size: 20pt;
+}
+#photoAndBio > p {
+    text-align: left;
+}
+
+#myJuriImgOfMe{
+    height: 200px;
+    width: 170px;
+}
+#bioOfMe {
+    color:azure;
+    background-color: #80DEEA;
+    font-size: 15pt;
+   display: inline-block;
+}
+#gamingHistory {
+    color: #E0F2F1;
+    background-color: #B39DDB;
+    font-size: 15pt;
+    padding-bottom: 20px;
+}
+#gameLogos {
+    display: flex;
+}
+
+#gameLogos > img {
+    background-color: black;
+}
+
+.iLikeToDraw {
+    height: 350px;
+}
+
+.iLikeToDraw  img {
+    width: 250px;
+    height: 250px;
+   
+}
+#inkingImage {
+    padding-top: 40px;
+}
+
+#darthVaderImage {
+    padding-bottom: 40px;
+}
+
+#rikouImage {
+    padding-bottom: 40px;
+}
+
+#rikouImage > img {
+    width: 300px;
+}
+
+.myEducation {
+    margin-top: 350px;
+}
+#willamette {
+    display: flex; 
+    background-color: #90CAF9;  
+    align-content: flex-end;
+    font-size: 15pt;
+    
+}
+#willamette > img {
+    height: 100px;
+    width: 150px;
+}
+.wrapper{width:100%;}
+.box{float:left; height:300px;}
+.box:nth-child(1){width:33.4%; height: 260px; padding-top: 40px; background-color: #B39DDB}
+.box:nth-child(2){width:33.3%; height: 260px; padding-top: 40px; background-color: #B39DDB}
+.box:nth-child(3){width:33.3%; background-color: #B39DDB}
